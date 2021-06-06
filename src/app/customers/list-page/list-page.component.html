@@ -1,0 +1,3 @@
+<mat-list-item *ngFor="let customer of customers | async" [routerLink]="customer.id" role="listitem">
+    <h3>{{ customer.name }}</h3>
+</mat-list-item>
